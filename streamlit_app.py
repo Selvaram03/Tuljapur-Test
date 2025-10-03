@@ -18,8 +18,8 @@ st.set_page_config(layout="wide", page_title="DGR Report Generator")
 st.title("☀️ Tuljapur Solar Plant DGR Report Generator")
 
 # --- Sidebar: Company Logo ---
-enrich_logo_path = r"C:\Users\selva.ram\Desktop\Selva ram\Streamlit_DGR_Tuljapur\enrich_logo.png"
-logo_path = r"C:\Users\selva.ram\Desktop\Selva ram\Streamlit_DGR_Tuljapur\Logo.png"
+enrich_logo_path = r"enrich_logo.png"
+logo_path = r"Logo.png"
 try:
     st.sidebar.image(enrich_logo_path, width=150)
 except:

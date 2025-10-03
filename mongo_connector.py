@@ -3,8 +3,10 @@ from datetime import datetime, timedelta
 import pandas as pd
 import pytz
 
+import streamlit as st
+MONGO_URI = st.secrets["MONGO_URI"]
+
 # MongoDB config
-MONGO_URI = "mongodb+srv://selvaram58_db_user:cFhijYBal60CGpAi@dgr-demo.dh1kxon.mongodb.net/"
 DATABASE_NAME = "scada_db"
 COLLECTION_NAME = "opcua_data"
 
